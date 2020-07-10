@@ -127,11 +127,11 @@ export default class App extends React.Component {
           </TouchableOpacity>
 
           <TouchableOpacity onPress={this.cameraLaunch} style={styles.button}  >
-              <Text style={styles.buttonText}>Launch Camera Directly</Text>
+              <Text style={styles.buttonText}>Launch Camera</Text>
           </TouchableOpacity>
 
           <TouchableOpacity onPress={this.imageGalleryLaunch} style={styles.button}  >
-              <Text style={styles.buttonText}>Launch Image Gallery Directly</Text>
+              <Text style={styles.buttonText}>Image Gallery</Text>
           </TouchableOpacity>
         </View>
       </View>
